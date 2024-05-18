@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Al Aqmar's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  description: "This portfolio is built on React based Next.js 14 framework.",
 };
 
 export default function RootLayout({
