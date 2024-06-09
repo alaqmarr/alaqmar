@@ -60,9 +60,9 @@ const Hero = () => {
             Hello! I&apos;m Al Aqmar, a Web Developer based in Hyderabad.
           </p>
 
-          <a href="#about">
+          <a href="https://wa.me/919618443558">
             <MagicButton
-              title="SEE MY WORK"
+              title="CONTACT ME"
               icon={<FaLocationArrow />}
               position="right"
             />

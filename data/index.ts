@@ -72,29 +72,71 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Al Aqmar's Portfolio",
+    des: "Using the latest server-side rendering framework Next.js, I have built this portfolio to showcase my work and projects.",
+    img: "/portfolio.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
+    link: "/hsbsecunderabad",
+    href: "https://alaqmar.tech"
+  },
+  {
+    id: 2,
     title: "Sabaq Portal",
-    des: "A portal for the Administrators of the Sabaq Department to manage asbaaq, mumineen's attendance and much more.",
+    des: "A portal for the administartion and management of the Asbaaq in Secunderabad. Built using Next.js and Firebase.",
     img: "/asbaaq.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/vercel.svg"],
     link: "/HSB-Secunderabad",
     href: "https://asbaaq.me"
   },
   {
-    id: 2,
+    id: 3,
     title: "Shastra Aura",
-    des: "A portal with functionality for appointment scheduling and the business information.",
+    des: "Scheduling system built just right using the native technologies and Firebase for the backend.",
     img: "/image.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/firebase.svg"],
+    iconLists: ["/html.svg", "bootstrap.svg", "/css.svg", "/js.svg", "/firebase.svg"],
     link: "/shastraaura",
     href: "https://shastraaura.com"
+  },
+  {
+    id: 4,
+    title: "Frame the Vision",
+    des: "This portal has been built using the latest Next.js framework and Firebase for the backend.",
+    img: "/ftv.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/vercel.svg"],
+    link: "/hsbsecunderabad",
+    href: "https://ftv.hsbsecunderabad.com"
+  },
+  {
+    id: 5,
+    title: "Toloba Secunderabad",
+    des: "This website was built for user interaction and engagement using native technologies.",
+    img: "/toloba.png",
+    iconLists: ["/html.svg", "bootstrap.svg", "/css.svg", "/js.svg", "/firebase.svg"],
+    link: "/hsbsecunderabad",
+    href: "https://tolobasecunderabad.com"
+  },
+  {
+    id: 5,
+    title: "Shabab Ul Eidiz Zahabi",
+    des: "This website was built for user interaction and engagement using native technologies.",
+    img: "/shabab.png",
+    iconLists: ["/html.svg", "bootstrap.svg", "/css.svg", "/js.svg", "/firebase.svg"],
+    link: "/shababuleidizzahabi",
+    href: "https://sezsec.org"
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "I had a great experience working with you. You are a very talented developer and I would love to work with you again.",
-    name: "Anonymous",
+      "I am thrilled with the service you provided. Your expertise and creativity shine through in your work. I've received so many compliments on the outcome, and it has significantly benefited my project",
+    name: "User 1",
+    title: "-",
+  },
+  {
+    quote:
+      "You are a true professional. You took my ideas and transformed them into something amazing. The process was smooth, and you were always available to answer my questions and make adjustments as needed. I am beyond satisfied with the final product.",
+    name: "User 2",
     title: "-",
   },
 ];
